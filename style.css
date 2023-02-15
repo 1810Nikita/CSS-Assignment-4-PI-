@@ -1,0 +1,100 @@
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+
+  }
+  div{
+    margin-left: 0;
+  }
+    
+
+  
+  .image1{
+  padding: 100px;
+  background: url(Assignment-3.PNG);
+  /* This will position the image at the top-center of the div */
+  background-position: center top; 
+  /* This will resize the image to cover the entire width of the div and only 50% of its height, which will show only the top half of the image */
+  background-size: 100% 50%; 
+  /* This will prevent the image from repeating in case it's smaller than the div's size */
+  background-repeat: no-repeat;
+  /* Set the height of the div to the desired size */
+  height: 100px;
+  background-size: 100%;
+  background-size: cover;
+  
+  } 
+
+p.im1{
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+#image1{
+  border: 2px solid black;
+  margin-bottom: 2%;
+}
+
+p.im2{
+  background-color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-bottom: 18px;
+  margin-top: 2px;
+  
+}
+
+#image2{
+  border: 2px solid black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+ 
+.image2{
+  padding: 100px;
+  background: url(Assignment-3.PNG);
+  /* This will position the image at the bottom-center of the div */
+  background-position: center bottom;
+  /* This will resize the image to cover the entire width of the div and only 50% of its height, which will show only the bottom half of the image */
+  background-size: 100% 50%; 
+  /* This will prevent the image from repeating in case it's smaller than the div's size */
+  background-repeat: no-repeat;
+  /* Set the height of the items to the desired size */ 
+   height: 150px;
+  background-size: 100%;
+
+   
+
+
+
+}
+
+p.im3{
+  margin-bottom: -1px;
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+
+/* center the  third image */
+.image3{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  max-height: 300px;
+  min-width: 500px;
+}
+
+ @media screen and (max-width: 768px) {
+    .image1 {
+      height: 30vh;
+    }
+  }
+
+
